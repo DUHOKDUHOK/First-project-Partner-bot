@@ -1,5 +1,5 @@
 const express = require('express');
-const { Client, RichEmbed } = require('discord.js');
+const { Client, RichEmbed } = require('https://discord.gg/qb9rNsYg');
 const app = express();
     function sleep(milliseconds) {
   var start = new Date().getTime();
@@ -29,8 +29,8 @@ client.on("ready", () => {
   ); 
   let statuses = [
     `Servers: ${client.guilds.size} Users: ${client.users.size}`,
-    `By Snow`,
-    `Snow Is Here`
+    `By Venk0x`,
+    `Venk0x Is Here`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -91,7 +91,7 @@ client.on("message", msg => {
 });
 /////Reklam////
 client.on('ready' , () => {
-var join = client.channels.get("id vc")/// ئاید ڤۆیس
+var join = client.channels.get("730209640859697252")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
@@ -101,16 +101,16 @@ if(message.channel.type === 'dm') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> link serveri xot`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`> https://discord.gg/qb9rNsYg`)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("id chanel partner").send(
+  client.channels.get("730209640859697252").send(
 `> ناردرا لە لایەن <@${message.author.id}> 
 ${message.content}`)
 }
     }
         })
 
-client.login("token bot dane");
+client.login("MTAwODA2NTQ0MTU3MjM0MzgzOA.G-gXZr.R5S6NuIH277u85uraoikc1q2L6SmSIxYeT4uCg");
 
 
 
