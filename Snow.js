@@ -18,7 +18,7 @@ app.listen(process.env.PORT);
 setInterval(() => {
   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
 }, 280000) 
-const Discord = require('discord.js');
+const Discord = require('https://discord.gg/qb9rNsYg');
 const client = new Discord.Client();
 const data = new Map();
 
@@ -29,8 +29,8 @@ client.on("ready", () => {
   ); 
   let statuses = [
     `Servers: ${client.guilds.size} Users: ${client.users.size}`,
-    `By Snow`,
-    `Snow Is Here`
+    `By Venko`,
+    `Venko Is Here`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -101,16 +101,16 @@ if(message.channel.type === 'dm') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> link serveri xot`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`> https://discord.gg/qb9rNsYg`)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("id chanel partner").send(
+  client.channels.get("730209640859697252").send(
 `> ناردرا لە لایەن <@${message.author.id}> 
 ${message.content}`)
 }
     }
         })
 
-client.login("token bot dane");
+client.login("MTAwODA2NTQ0MTU3MjM0MzgzOA.GJEy8b.kkZGbndpoaaymysKVvLgghcfc1F-szeka3ei0o");
 
 
 
